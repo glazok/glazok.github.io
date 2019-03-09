@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body{
+	margin: 0;
+	font-family: 'Roboto';
+}
+.back_head{
+	background: url(images/1.svg) no-repeat;
+	background-size: cover;
+	height: 30vh;
+	max-height: 450px;
+	display: flex;
+	justify-content: space-around;
+}
+#new_date{
+	font-size: 40px;
+	align-items: center;
+	display: flex;
+	color: #fffbf2;
+	font-weight: 700;
+}
+.head_title{
+	align-items: center;
+	display: flex;
+}
+.head_title h1{
+	padding: 40px;
+	color: #f0e5bd;
+	
+}
+.head_title h1:first-letter {
+	color:#ff0000;
+	}
+
+.container{
+	padding: 30px;
+	max-width: 500px;
+	margin: auto;
+}
+.round-small{
+	width: 26px;
+	height: 26px;
+	border: 2px solid white;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 47px;
+	margin-left: -14px;
+	box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.round-small-actual{
+	background: #388E3C;
+}
+.round-small-old{
+	background: #ccc;
+}
+.round-small-current{
+	background: rgb(161, 44, 36);
+}
+.round-big{
+	width: 46px;
+	height: 46px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background: #E09A32;
+	position: absolute;
+	margin-top: 47px;
+	margin-left: -25px;
+	box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.card{
+	min-height: 100px;
+	display: flex;
+	justify-content: left;
+	border-left: 1px solid #b9b9b9;
+
+}
+.card_title{
+	padding-top: 34px;
+	padding-left: 40px;
+}
+.card_date{
+	min-width: 130px;
+	padding-top: 53px;
+	padding-left: 25px;
+}
+.card_content{
+	padding-left: 20px;
+	padding-top: 33px;
+}
+.card_content_old{
+	color: rgb(182, 182, 182);
+}
+@media only screen and (max-width:500px){
+	.back_head h1{
+		padding: 5px;
+	}
+	.card_date{
+		min-width: 40px;
+		overflow-wrap: break-word;
+}
+	.card_content{
+		padding-left: 8px;
+		font-size: 15px;
+		list-style-type: none;
+	}
+	.card_content ul {
+		margin-left: 15px;
+		padding-left: 0;
+	  }
+	 #new_date {
+		font-size: 20px;
+		padding: 30px;
+	}
+	
+}
+
+
