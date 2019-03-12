@@ -27,7 +27,7 @@ const sections = [
 			]
 		},
 		{
-			date: '2019-03-10',
+			date: '2019-03-12',
 			name: 'Практический семинар',
 			topics: []
 		},
@@ -307,7 +307,7 @@ function addSection(section){
 	roundBig.className ='round-big';
 	container.appendChild(roundBig);
 
-	const card = document.createElement('div');
+	const card = document.createElement('section');
 	card.className='card';
 	
 	const cardTitle = document.createElement('h1');
@@ -331,7 +331,7 @@ function addEvent(event){
 	container.appendChild(roundSmall);
 
 
-	const card = document.createElement('div');
+	const card = document.createElement('section');
 	card.className='card';
 	const cardDate = document.createElement('div');
 	cardDate.className='card_date';

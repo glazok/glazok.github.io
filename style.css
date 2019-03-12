@@ -11,10 +11,12 @@ body{
 	display: flex;
 	justify-content: space-around;
 }
+.today h4{
+	color: #fffbf2;
+	margin: 12px 0;
+}
 #new_date{
 	font-size: 40px;
-	align-items: center;
-	display: flex;
 	color: #fffbf2;
 	font-weight: 700;
 }
