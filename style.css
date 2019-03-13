@@ -94,6 +94,7 @@ body{
 @media only screen and (max-width:500px){
 	.back_head h1{
 		padding: 5px;
+		font-size: 20px;
 	}
 	.card_date{
 		min-width: 40px;
@@ -101,7 +102,7 @@ body{
 }
 	.card_content{
 		padding-left: 8px;
-		font-size: 15px;
+		font-size: 13px;
 		list-style-type: none;
 	}
 	.card_content ul {
